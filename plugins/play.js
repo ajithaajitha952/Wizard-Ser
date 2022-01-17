@@ -26,7 +26,7 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
 *Title:* ${title}
 *Audio File Size:* ${filesizeF}
-*Video File Size:* ${yt2.filesizeF}
+*Video File Size:* ${200Mb}
 *Play Doesnt Work ,In Disappearing mode*
 `.trim(), watermark, '🎵ᴀᴜᴅɪᴏ', `.yta ${vid.url}`, '🎥ᴠɪᴅᴇᴏ', `.yt ${vid.url}`)
 }
